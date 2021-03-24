@@ -110,6 +110,8 @@ Diy_immortalwrt2() {
 DIY_GET_COMMON_SH
 cp -Rf "${Home}"/build/common/PROJECT/files "${Home}"
 cp -Rf "${Home}"/build/common/PROJECT/diy/* "${Home}"
+rm -rf feeds/luci/applications/{luci-app-adguardhome,luci-app-argon-config}
+rm -rf feeds/luci/themes/{luci-theme-argonv2,luci-theme-argonv3}
 sed -i '/exit 0/i\echo "*/3 * * * * chmod +x /etc/webweb.sh && source /etc/webweb.sh" >> /etc/crontabs/root' ${TYZZZ}
 sed -i "/exit 0/i\sed -i '/DISTRIB_REVISION/d' /etc/openwrt_release" ${TYZZZ}
 }
