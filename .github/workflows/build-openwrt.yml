@@ -61,8 +61,6 @@ jobs:
         echo "UPLOAD_RELEASE=${UPLOAD_RELEASE}" >> $GITHUB_ENV
         echo "SERVERCHAN_SCKEY=${SERVERCHAN_SCKEY}" >> $GITHUB_ENV
         echo "REGULAR_UPDATE=${REGULAR_UPDATE}" >> $GITHUB_ENV
-        echo "Updete_firmware=${Updete_firmware}" >> $GITHUB_ENV
-        echo "Extension=${Extension}" >> $GITHUB_ENV
 
     - name: 微信通知
       uses: emon100/Action-Serverchan@v2
