@@ -18,7 +18,7 @@ echo "281677160 Compiled in $(TZ=UTC-8 date "+%Y.%m.%d")" > package/base-files/f
 
 sed -i "/uci commit system/i\uci set system.@system[0].hostname='OpenWrt-123'" $ZZZ                       # 修改主机名称为OpenWrt-123
 
-#sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                                                    # 设置密码为空
+sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                                                    # 设置密码为空
 
 #sed -i 's/PATCHVER:=4.19/PATCHVER:=4.9/g' target/linux/x86/Makefile                                      # 修改内核版本为4.9
 
