@@ -18,7 +18,7 @@ on:
         required: false
         default: 'true'
       delete-older-releases:
-        description: '删除旧的发布'
+        description: '删除旧的固件发布'
         required: false
         default: 'true'
 
