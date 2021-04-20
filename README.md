@@ -47,7 +47,8 @@
 《[NTFS优盘挂载](https://github.com/danshui-git/shuoming/blob/master/ntfs.md)》
 《[各种命令的简单介绍](https://github.com/danshui-git/shuoming/blob/master/ming.md)》
 《[微信通知跟自动发布固功能密匙获取跟使用教程](https://github.com/danshui-git/shuoming/blob/master/ms.md)》
-《[Telegram机器人推送信息教程](https://github.com/danshui-git/shuoming/blob/master/bot.md )》
+《[Telegram机器人推送信息教程](https://github.com/danshui-git/shuoming/blob/master/bot.md)》
+《[编译时设置overlay空间容量](https://github.com/danshui-git/shuoming/blob/master/overlay.md)》
 #
 - 14、建议准备梯子一把，虽然云编译不需要梯子，不过你使用SSH连接、下载固件、打开github网页也是需要梯子比较好的（没有也行，比较卡就是）
 
