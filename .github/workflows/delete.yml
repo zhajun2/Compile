@@ -14,11 +14,11 @@ on:
   workflow_dispatch:
     inputs:
       delete-older-workflow:
-        description: '删除github空间旧固件'
+        description: '删除github空间固件'
         required: false
         default: 'true'
       delete-older-releases:
-        description: '删除旧的固件发布'
+        description: '删除Releases固件'
         required: false
         default: 'true'
 
