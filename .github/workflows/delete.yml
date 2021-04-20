@@ -23,7 +23,7 @@ on:
         default: 'true'
 
 #  schedule:
-#    - cron: 0 8 */5 * *
+#    - cron: 0 8 * * *
 
 env:
   OLDER_WORKFLOW: true
